@@ -2,13 +2,6 @@
 Projekat iz baza podataka koji podržava deo rada auto škole
 
 Tabele u projektu:
-### ISPITI
--id_ispita (primary key)  
--datum (date)  
--kandidat (foreign key)  
--tip polaganja (foreign key)  
--prolaz (bool)  
-
 ### KANDIDATI
 -ime (varchar(20))  
 -prezime (varchar(20))  
@@ -32,6 +25,10 @@ Tabele u projektu:
 -pozicija (foreign key)  
 -vozilo (foreign key)  
 
+### TIP_RADNIKA
+-id_pozicije (primary key)  
+-tip_radnika (varchar(25))  
+
 ### DUZI
 -radnik (foreign key)  
 -vozilo (foreign key)  
@@ -41,8 +38,9 @@ Tabele u projektu:
 -id (primary key)  
 -vrsta(varchar(10))  
 
-### Polaganje
+### POLAGANJE
 -vrsta_polaganja (foreign key)  
 -kandidat (foreign key)  
 -datum (date)  
+-polozen (bool)
 
