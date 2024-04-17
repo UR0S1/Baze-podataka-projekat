@@ -44,3 +44,5 @@ Tabele u projektu:
 -datum (date)  
 -polozen (bool)
 
+## RELATIONSHIP DIAGRAM
+![relationship-diagram](https://github.com/UR0S1/Baze-podataka-projekat/blob/main/SQL_baza_dijagram.png?raw=true)
