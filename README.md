@@ -7,6 +7,7 @@ Tabele u projektu:
 -prezime (varchar(20))  
 -JMBG (primary key)  
 -adresa (varchar(50))  
+-instruktor (foreign key)
 -teorija (bool)  
 -voznja (bool)  
 -prva_pomoc (bool)  

@@ -1,26 +1,5 @@
 USE AUTOSKOLA;
 
-
-CREATE TABLE Kandidati(
-    ime VARCHAR(20),
-    prezime VARCHAR(20),
-    JMBG VARCHAR(13) PRIMARY KEY NOT NULL,
-    adresa VARCHAR(30),
-    teorija BIT,
-    voznja BIT,
-    prva_pomoc BIT
-);
-
-
-CREATE TABLE Vozila (
-    id_vozila INT IDENTITY(1,1) PRIMARY KEY,
-    kategorija VARCHAR(3),
-    brend VARCHAR(15),
-    model VARCHAR(15)
-);
-
-
-
 CREATE TABLE Tip_radnika (
     id_pozicije INT IDENTITY(1,1) PRIMARY KEY,
     tip_radnika VARCHAR(25)
@@ -35,6 +14,29 @@ CREATE TABLE Radnici(
     pozicija INT,
     FOREIGN KEY (pozicija) REFERENCES Tip_radnika(id_pozicije)
 );
+
+CREATE TABLE Kandidati(
+    ime VARCHAR(20),
+    prezime VARCHAR(20),
+    JMBG VARCHAR(13) PRIMARY KEY NOT NULL,
+    adresa VARCHAR(30),
+    teorija BIT,
+    voznja BIT,
+    instruktor INT,
+    prva_pomoc BIT,
+    FOREIGN KEY (instruktor) REFERENCES Radnici(id_radnika)
+);
+
+
+CREATE TABLE Vozila (
+    id_vozila INT IDENTITY(1,1) PRIMARY KEY,
+    kategorija VARCHAR(3),
+    brend VARCHAR(15),
+    model VARCHAR(15)
+);
+
+
+
 
 CREATE TABLE Duzi (
     radnik INT,
