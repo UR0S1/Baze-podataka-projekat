@@ -47,7 +47,7 @@ INSERT INTO Vozila (kategorija, brend, model) VALUES
 -- Polaganja
 INSERT INTO Polaganje (vrsta_polaganja, kandidat, datum, polozen) VALUES
     (1, '1234567890123', '2024-04-20', 1),
-    (2, '9876543210123', '2024-04-22', 0),
+    (2, '9876543210123', '2024-04-22', 1),
     (1, '2345678901234', '2024-04-23', 1),
     (2, '3456789012345', '2024-04-24', 0),
     (1, '4567890123456', '2024-04-25', 1),
