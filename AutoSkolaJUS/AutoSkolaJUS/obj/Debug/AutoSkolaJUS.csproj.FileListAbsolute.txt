@@ -1,0 +1,104 @@
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\VisualStudio\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\VisualStudio\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Form1.resources
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\VisualStudio\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Properties.Resources.resources
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\VisualStudio\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\VisualStudio\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\VisualStudio\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.exe.config
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\VisualStudio\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.exe
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\VisualStudio\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.pdb
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\VisualStudio\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.exe
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\VisualStudio\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.pdb
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.exe.config
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.exe
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.pdb
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.AutoSkola.resources
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Kandidati.resources
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Polaganja.resources
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Properties.Resources.resources
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Radnici.resources
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Vozila.resources
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.exe
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.pdb
+D:\StasaSubotic Baze Podataka\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.exe.config
+D:\StasaSubotic Baze Podataka\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.exe
+D:\StasaSubotic Baze Podataka\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.pdb
+D:\StasaSubotic Baze Podataka\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.AssemblyReference.cache
+D:\StasaSubotic Baze Podataka\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.AutoSkola.resources
+D:\StasaSubotic Baze Podataka\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Kandidati.resources
+D:\StasaSubotic Baze Podataka\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Polaganja.resources
+D:\StasaSubotic Baze Podataka\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Properties.Resources.resources
+D:\StasaSubotic Baze Podataka\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Radnici.resources
+D:\StasaSubotic Baze Podataka\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Vozila.resources
+D:\StasaSubotic Baze Podataka\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.GenerateResource.cache
+D:\StasaSubotic Baze Podataka\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.CoreCompileInputs.cache
+D:\StasaSubotic Baze Podataka\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.exe
+D:\StasaSubotic Baze Podataka\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.pdb
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.PolaganjaKandidata.resources
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.PolozeniIspiti.resources
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.ProcentniPrikazIspita.resources
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.ProcentniPrikazPoInstruktoru.resources
+C:\Users\HP\Desktop\moj 13. razlog\Baze podataka\GrupniProjAUTOSKOLA\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.RangListaInstruktora.resources
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.exe.config
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.exe
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.pdb
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.AssemblyReference.cache
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.SuggestedBindingRedirects.cache
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.AutoSkola.resources
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Kandidati.resources
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Polaganja.resources
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.PolaganjaKandidata.resources
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.PolozeniIspiti.resources
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.ProcentniPrikazIspita.resources
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.ProcentniPrikazPoInstruktoru.resources
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Properties.Resources.resources
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Radnici.resources
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.RangListaInstruktora.resources
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Vozila.resources
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.GenerateResource.cache
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.CoreCompileInputs.cache
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.exe
+C:\Users\caRByyy\Documents\1_JOVANA dokumenta\SKOLA\SREDNJA\BAZE PODATAKA\TimskiProjekat\AutoSkolaJUS-20240504T194647Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.pdb
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.exe.config
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.exe
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.pdb
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.AssemblyReference.cache
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.AutoSkola.resources
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Kandidati.resources
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.KandidatiKojiNisuPolozili.resources
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Polaganja.resources
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.PolaganjaKandidata.resources
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.PolozeniIspiti.resources
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.ProcentniPrikazIspita.resources
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.ProcentniPrikazPoInstruktoru.resources
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Properties.Resources.resources
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Radnici.resources
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.RangListaInstruktora.resources
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Vozila.resources
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.GenerateResource.cache
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.exe
+C:\Users\HP\Downloads\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.pdb
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.AssemblyReference.cache
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.exe
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.pdb
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.exe.config
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.exe
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.pdb
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.AutoSkola.resources
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Kandidati.resources
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.KandidatiKojiNisuPolozili.resources
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Polaganja.resources
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.PolaganjaKandidata.resources
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.PolozeniIspiti.resources
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.ProcentniPrikazIspita.resources
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.ProcentniPrikazPoInstruktoru.resources
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Properties.Resources.resources
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Radnici.resources
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.RangListaInstruktora.resources
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Vozila.resources
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.GenerateResource.cache
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.CoreCompileInputs.cache
+C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.RadniciIzmenaForm.resources
