@@ -1,3 +1,107 @@
+IF NOT EXISTS 
+   (
+    SELECT name FROM master.dbo.sysdatabases 
+    WHERE name = 'AUTOSKOLA'
+    )
+BEGIN
+CREATE DATABASE AUTOSKOLA 
+ON
+( NAME = Auto_skola_dat, 
+		 FILENAME = 'E:\Skola\Baze\Auto_skola.mdf', 
+		 SIZE = 100MB,	MAXSIZE = 500MB, FILEGROWTH = 20% )
+LOG ON 
+( NAME = Auto_skola_log, 
+		 FILENAME = 'E:\Skola\Baze\Auto_skola.ldf', 
+		 SIZE = 20MB, MAXSIZE = UNLIMITED, FILEGROWTH = 10MB );
+
+ALTER DATABASE AUTOSKOLA
+COLLATE Serbian_Latin_100_CS_AS;
+END
+
+GO
+
+USE AUTOSKOLA;
+
+DROP TABLE IF EXISTS Polaganje
+CREATE TABLE Polaganje (
+    id_polaganja INT PRIMARY KEY IDENTITY(1,1),
+    vrsta_polaganja INT,
+    kategorija VARCHAR(3),
+    kandidat VARCHAR(13),
+    datum DATE,
+    polozen BIT,
+);
+
+DROP TABLE IF EXISTS Duzi
+CREATE TABLE Duzi (
+    radnik INT,
+    vozilo INT,
+    datum_zaduzenja DATE,
+    datum_razduzenja DATE NULL,
+    PRIMARY KEY (radnik, vozilo, datum_zaduzenja)
+);
+
+DROP TABLE IF EXISTS Kandidati
+CREATE TABLE Kandidati(
+    ime VARCHAR(20),
+    prezime VARCHAR(20),
+    JMBG VARCHAR(13) PRIMARY KEY NOT NULL,
+    adresa VARCHAR(30),
+    teorija BIT,
+    voznja BIT,
+    instruktor INT,
+    prva_pomoc BIT
+);
+
+DROP TABLE IF EXISTS Radnici
+CREATE TABLE Radnici(
+    id_radnika INT IDENTITY(1,1) PRIMARY KEY,
+    ime VARCHAR(20),
+    prezime VARCHAR(20),
+    JMBG VARCHAR(13),
+    adresa VARCHAR(50),
+    pozicija INT
+);
+
+DROP TABLE IF EXISTS Vozila
+CREATE TABLE Vozila (
+    id_vozila INT IDENTITY(1,1) PRIMARY KEY,
+    kategorija VARCHAR(3),
+    brend VARCHAR(15),
+    model VARCHAR(15)
+);
+
+DROP TABLE IF EXISTS Tip_radnika
+CREATE TABLE Tip_radnika (
+    id_pozicije INT IDENTITY(1,1) PRIMARY KEY,
+    tip_radnika VARCHAR(25)
+);
+
+DROP TABLE IF EXISTS Vrste_polaganja
+CREATE TABLE Vrste_polaganja (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    vrsta VARCHAR(10)
+);
+
+
+
+ALTER TABLE Polaganje
+ADD CONSTRAINT FK_VrstePolaganja_Polaganje FOREIGN KEY (vrsta_polaganja) REFERENCES Vrste_polaganja(id),
+	CONSTRAINT FK_Kandidati_Polaganje FOREIGN KEY (kandidat) REFERENCES Kandidati(JMBG);
+
+ALTER TABLE Duzi
+ADD CONSTRAINT FK_Radnici_Duzi FOREIGN KEY (radnik) REFERENCES Radnici(id_radnika),
+	CONSTRAINT FK_Vozila_Duzi FOREIGN KEY (vozilo) REFERENCES Vozila(id_vozila);
+
+ALTER TABLE Kandidati
+ADD CONSTRAINT FK_Radnici_Kandidati FOREIGN KEY (instruktor) REFERENCES Radnici(id_radnika);
+
+ALTER TABLE Radnici
+ADD CONSTRAINT FK_TipRadnika_Radnici FOREIGN KEY (pozicija) REFERENCES Tip_radnika(id_pozicije);
+
+
+USE AUTOSKOLA;
+
 -- Tipovi radnika
 INSERT INTO Tip_radnika(tip_radnika) VALUES
     ('Instruktor'),
@@ -62,5 +166,4 @@ INSERT INTO Duzi (radnik, vozilo, datum_zaduzenja, datum_razduzenja) VALUES
     (1, 3, '2024-04-20', '2024-04-27'),
     (2, 4, '2024-04-21', NULL),
     (1, 1, '2024-04-26', '2024-04-29');
-
 

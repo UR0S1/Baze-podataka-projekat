@@ -56,7 +56,9 @@ CREATE TABLE Vrste_polaganja (
 
 
 CREATE TABLE Polaganje (
+    id_polaganja INT PRIMARY KEY IDENTITY(1,1),
     vrsta_polaganja INT,
+    kategorija VARCHAR(3),
     kandidat VARCHAR(13),
     datum DATE,
     polozen BIT,
