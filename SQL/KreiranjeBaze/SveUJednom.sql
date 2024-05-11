@@ -130,12 +130,12 @@ VALUES
     ('Marko', 'Jovanovic', '9876543210123', 'Adresa 2', 1, 0, 1, 0),
     ('Ivana', 'Kovacevic', '4567890123456', 'Adresa 3', 3, 1, 1, 1),
     ('Nikola', 'Milic', '7890123456789', 'Adresa 4', 5, 1, 1, 0),
-    ('Jelena', 'Ristic', '2345678901234', 'Adresa 5', 5, 0, 0, 1),
-    ('Petar', 'Nikolic', '5678901234567', 'Adresa 6', 3, 0, 0, 1),
-    ('Milica', 'Stojanovic', '8901234567890', 'Adresa 7', 1, 0, 1, 0),
+    ('Jelena', 'Ristic', '2345678901234', 'Adresa 5', null, 0, 0, 1),
+    ('Petar', 'Nikolic', '5678901234567', 'Adresa 6', null, 0, 0, 1),
+    ('Milica', 'Stojanovic', '8901234567890', 'Adresa 7', 1, 1, 1, 1),
     ('Stefan', 'Pavlovic', '3456789012345', 'Adresa 8', 5, 1, 0, 1),
-    ('Marija', 'Djordjevic', '6789012345678', 'Adresa 9', 3, 1, 1, 0),
-    ('Dusan', 'Milinkovic', '0123456789012', 'Adresa 10', 3, 0, 0, 1);
+    ('Marija', 'Djordjevic', '6789012345678', 'Adresa 9', 3, 1, 1, 1),
+    ('Dusan', 'Milinkovic', '0123456789012', 'Adresa 10', null, 0, 0, 1);
 
 
 -- Vozila

@@ -270,6 +270,7 @@
             this.jmbg.BackColor = System.Drawing.Color.PeachPuff;
             this.jmbg.Location = new System.Drawing.Point(113, 114);
             this.jmbg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.jmbg.MaxLength = 13;
             this.jmbg.Name = "jmbg";
             this.jmbg.Size = new System.Drawing.Size(165, 22);
             this.jmbg.TabIndex = 93;

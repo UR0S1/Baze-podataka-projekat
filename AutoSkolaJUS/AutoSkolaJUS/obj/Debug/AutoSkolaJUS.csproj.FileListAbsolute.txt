@@ -102,3 +102,24 @@ C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkola
 C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.GenerateResource.cache
 C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.CoreCompileInputs.cache
 C:\Users\Uros\Downloads\AutoSkolaJUS-20240508T192651Z-001\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.RadniciIzmenaForm.resources
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.exe.config
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.exe
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\bin\Debug\AutoSkolaJUS.pdb
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.AssemblyReference.cache
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.AutoSkola.resources
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Kandidati.resources
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.KandidatiKojiNisuPolozili.resources
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Polaganja.resources
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.PolaganjaKandidata.resources
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.PolozeniIspiti.resources
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.ProcentniPrikazIspita.resources
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.ProcentniPrikazPoInstruktoru.resources
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Properties.Resources.resources
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Radnici.resources
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.RadniciIzmenaForm.resources
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.RangListaInstruktora.resources
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Vozila.resources
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.GenerateResource.cache
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.CoreCompileInputs.cache
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.exe
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.pdb

@@ -140,11 +140,11 @@ namespace AutoSkolaJUS
             try { 
                 veza.Open();        
                 komanda.ExecuteNonQuery();   
+                veza.Close();
             }catch (Exception ex)
             {
                 errorMessage(ex);
             }
-            veza.Close();
             osvezi_Click();
         }
 

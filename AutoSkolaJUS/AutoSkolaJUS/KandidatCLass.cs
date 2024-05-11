@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace AutoSkolaJUS
 {
-    internal class KandidatCLass
+    internal class KandidatClass
     {
         public int KandidatID { get; set; }
         public string Ime { get; set; }
@@ -28,16 +28,17 @@ namespace AutoSkolaJUS
             {
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
+                    
                     connection.Open();
                     using (SqlCommand cmd = new SqlCommand(
-                        "INSERT INTO Kandidati (ime, prezime, JMBG, instruktor, adresa, teorija, voznja, prva_pomoc) " +//pazite ovde mora razmak pre + inace ce biti errorcina
+                        "INSERT INTO Kandidati (ime, prezime, JMBG, adresa,instruktor, teorija, voznja, prva_pomoc) " +//pazite ovde mora razmak pre + inace ce biti errorcina
                         "VALUES (@Ime, @Prezime, @JMBG, @Adresa, @InstruktorID, @Teorija, @Voznja, @PrvaPomoc)", connection))
                     {//moze iz bez ovog using samo nova SqlCommand i umesto @Ime stavite ispred navodnika $ i umesto @Ime {Ime} ostalo analogno
                         cmd.Parameters.AddWithValue("@Ime", Ime);//using garantuje da se Dispose()-uje sve nakon zavrsetka i ukoliko dodje do greske opet disposeuje
                         cmd.Parameters.AddWithValue("@Prezime", Prezime);//ali realno zamenite samo imena polja i tjt
                         cmd.Parameters.AddWithValue("@JMBG", JMBG);
                         cmd.Parameters.AddWithValue("@Adresa", Adresa);
-                        cmd.Parameters.AddWithValue("@InstruktorID", InstruktorID);
+                        cmd.Parameters.AddWithValue("@InstruktorID", InstruktorID == 0 ? DBNull.Value : (object)InstruktorID);
                         cmd.Parameters.AddWithValue("@Teorija", Teorija);
                         cmd.Parameters.AddWithValue("@Voznja", Voznja);
                         cmd.Parameters.AddWithValue("@PrvaPomoc", PrvaPomoc);
@@ -47,7 +48,7 @@ namespace AutoSkolaJUS
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Eror pri izvrsavanju upisa: {ex.Message}");
+                errorMessage(ex);
             }
         }
 
@@ -78,12 +79,12 @@ namespace AutoSkolaJUS
                     }
                 }
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
-                MessageBox.Show($"Eror pri izvrsavanju promene: {ex.Message}");
+                errorMessage(ex);
             }
 
-            
+
         }
 
 
@@ -102,10 +103,20 @@ namespace AutoSkolaJUS
                     }
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                MessageBox.Show($"Eror pri brisanju: {ex.Message}");
+                errorMessage(ex);
             }
+        }
+
+        private void errorMessage(Exception ex)
+        {
+            string message = "Došlo je do greške. ";
+            string title = "Error";
+            MessageBoxButtons buttons = MessageBoxButtons.OK;
+            MessageBoxIcon icon = MessageBoxIcon.Error;
+            MessageBox.Show(message + ex, title, buttons, icon);
+
         }
     }
 

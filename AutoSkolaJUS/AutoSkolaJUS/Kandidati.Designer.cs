@@ -155,13 +155,19 @@
             // 
             // dataKandidata
             // 
+            this.dataKandidata.AllowUserToAddRows = false;
+            this.dataKandidata.AllowUserToDeleteRows = false;
+            this.dataKandidata.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataKandidata.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataKandidata.BackgroundColor = System.Drawing.SystemColors.ControlDark;
             this.dataKandidata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataKandidata.Location = new System.Drawing.Point(31, 196);
             this.dataKandidata.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataKandidata.Name = "dataKandidata";
+            this.dataKandidata.ReadOnly = true;
             this.dataKandidata.RowHeadersWidth = 62;
             this.dataKandidata.RowTemplate.Height = 28;
+            this.dataKandidata.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataKandidata.Size = new System.Drawing.Size(585, 215);
             this.dataKandidata.TabIndex = 19;
             // 
@@ -256,6 +262,7 @@
             this.teorija.Size = new System.Drawing.Size(18, 17);
             this.teorija.TabIndex = 49;
             this.teorija.UseVisualStyleBackColor = false;
+            this.teorija.CheckStateChanged += new System.EventHandler(this.teorija_CheckStateChanged);
             // 
             // prvapomoc
             // 
@@ -267,6 +274,7 @@
             this.prvapomoc.Size = new System.Drawing.Size(18, 17);
             this.prvapomoc.TabIndex = 50;
             this.prvapomoc.UseVisualStyleBackColor = false;
+            this.prvapomoc.CheckStateChanged += new System.EventHandler(this.prvapomoc_CheckStateChanged);
             // 
             // voznja
             // 
@@ -284,9 +292,11 @@
             this.jmbg.BackColor = System.Drawing.Color.PeachPuff;
             this.jmbg.Location = new System.Drawing.Point(121, 92);
             this.jmbg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.jmbg.MaxLength = 13;
             this.jmbg.Name = "jmbg";
             this.jmbg.Size = new System.Drawing.Size(165, 22);
             this.jmbg.TabIndex = 25;
+            this.jmbg.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.jmbg_KeyPress);
             // 
             // lblInsturktor
             // 

@@ -20,27 +20,76 @@ namespace AutoSkolaJUS
         public Kandidati()
         {
             InitializeComponent();
+            instruktor.Enabled = false;
+            dodajInstruktore();
+            osveziTable();
         }
+        private void dodajInstruktore()
+        {
+            string connectionString = global::AutoSkolaJUS.Properties.Settings.Default.strVeze;
+            try
+            {
+                using(SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    using(SqlCommand cmd = new SqlCommand("SELECT id_radnika FROM Radnici WHERE pozicija = 2", conn))
+                    {
+                        SqlDataReader dr = cmd.ExecuteReader();
+                        while (dr.Read())
+                        {
+                            instruktor.Items.Add(dr.GetInt32(0));
+                        }
+                        
+                    }
+                    conn.Close();
+                }
 
+            }catch (Exception ex)
+            {
+                errorMessage(ex);
+            }
+        }
+        private void errorMessage(Exception ex)
+        {
+            string message = "Došlo je do greške. ";
+            string title = "Error";
+            MessageBoxButtons buttons = MessageBoxButtons.OK;
+            MessageBoxIcon icon = MessageBoxIcon.Error;
+            MessageBox.Show(message + ex, title, buttons, icon);
+
+        }
         private void izlaz_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void unetoSve()
-        {
 
+        private bool poljePrazno()
+        {
+            return ime.Text == string.Empty || prezime.Text == string.Empty || jmbg.Text.Length != 13 || adresa.Text == string.Empty;
         }
 
         private void dodaj_Click(object sender, EventArgs e)
         {
-            KandidatCLass kandidat = new KandidatCLass();
+            if (poljePrazno())
+            {
+                MessageBox.Show("Molim vas popunite prazna polja");
+                return;
+            }
+
+
+            KandidatClass kandidat = new KandidatClass();
             kandidat.Ime = ime.Text;
             kandidat.Prezime = prezime.Text;
             kandidat.JMBG = jmbg.Text;
             kandidat.Adresa = adresa.Text;
-            //kandidat.InstruktorID =
+            kandidat.InstruktorID = Convert.ToInt32(instruktor.SelectedValue);
+            kandidat.Teorija = teorija.Checked;
+            kandidat.PrvaPomoc = prvapomoc.Checked;
+            kandidat.Voznja = voznja.Checked;
 
+            kandidat.Insert();
+            osveziTable();
         }
 
         private void promeni_Click(object sender, EventArgs e)
@@ -71,6 +120,7 @@ namespace AutoSkolaJUS
             }
 
             veza.Close();
+            osveziTable();
         }
 
         private void izbrisi_Click(object sender, EventArgs e)
@@ -92,6 +142,38 @@ namespace AutoSkolaJUS
             string kom = "SELECT * FROM Kandidati";
             KonekcijaSBazom.UcitajTabelu(kom, ref dt);
             dataKandidata.DataSource = dt;
+        }
+
+        private void teorija_CheckStateChanged(object sender, EventArgs e)
+        {
+            if(teorija.Checked && prvapomoc.Checked)
+            {
+                instruktor.Enabled = true;
+            }
+            else
+            {
+                instruktor.Enabled = false;
+            }
+        }
+
+        private void prvapomoc_CheckStateChanged(object sender, EventArgs e)
+        {
+            if (teorija.Checked && prvapomoc.Checked)
+            {
+                instruktor.Enabled = true;
+            }
+            else
+            {
+                instruktor.Enabled = false;
+            }
+        }
+
+        private void jmbg_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !(e.KeyChar == (char)Keys.Back))
+            {
+                e.Handled = true;
+            }
         }
     }
 }
