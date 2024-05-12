@@ -17,10 +17,21 @@ namespace AutoSkolaJUS
 
         DataTable dt = new DataTable();
 
+        string selectedIme = string.Empty;
+        string selectedPrezime = string.Empty;
+        string selectedJMGB = string.Empty;
+        string selectedAdresa = string.Empty;
+        int selectedInstruktor = 0;
+        bool selectedTeorija = false;
+        bool selectedPrvaPomoc = false;
+        bool selectedVoznja = false;
+
         public Kandidati()
         {
             InitializeComponent();
             instruktor.Enabled = false;
+            promeni.Enabled = false;
+            izbrisi.Enabled = false;
             dodajInstruktore();
             osveziTable();
         }
@@ -90,56 +101,63 @@ namespace AutoSkolaJUS
 
             kandidat.Insert();
             osveziTable();
+            ocistiPolja();
+            ime.Focus();
+
+        }
+        private void ocistiPolja()
+        {
+            ime.Text = string.Empty;
+            prezime.Text = string.Empty;
+            adresa.Text = string.Empty;
+            jmbg.Text = string.Empty;
+            instruktor.Enabled = false;
+            instruktor.SelectedItem = null;
+            teorija.Checked = false;
+            prvapomoc.Checked = false;
+            voznja.Checked = false;
+
+        }
+        private void pokupiPodatkeIzReda()
+        {
+            DataGridViewRow selectedRow = dataKandidata.SelectedRows[0];
+            
+            selectedIme = selectedRow.Cells[0].Value.ToString();
+            selectedPrezime = selectedRow.Cells[1].Value.ToString();
+            selectedJMGB = selectedRow.Cells[2].Value.ToString();
+            selectedAdresa = selectedRow.Cells[3].Value.ToString();
+            selectedInstruktor = selectedRow.Cells[4].Value != DBNull.Value? (int)selectedRow.Cells[4].Value : 0;
+            int bitValue = Convert.ToInt32(selectedRow.Cells[5].Value);
+            selectedTeorija = bitValue == 1;
+            bitValue = Convert.ToInt32(selectedRow.Cells[6].Value);
+            selectedPrvaPomoc = bitValue == 1;
+            bitValue = Convert.ToInt32(selectedRow.Cells[7].Value);
+            selectedVoznja = bitValue == 1;
         }
 
         private void promeni_Click(object sender, EventArgs e)
         {
-            SqlConnection veza = new SqlConnection(global::AutoSkolaJUS.Properties.Settings.Default.strVeze);
-            veza.Open();
-
-
-            SqlCommand komanda = new SqlCommand("UPDATE Kandidati " +
-                                                "SET ime=" + ime.Text + ", prezime=" + prezime.Text + ", adresa=" + adresa.Text +
-                                                "WHERE jmbg=" + jmbg.Text + ";", veza);
-            komanda.ExecuteNonQuery();
-
-            if (teorija.Checked)
-            {
-                SqlCommand komanda1 = new SqlCommand("UPDATE Kandidati SET teorija=1 WHERE jmbg=" + jmbg.Text + ";", veza);
-                komanda1.ExecuteNonQuery();
-            }
-            if (prvapomoc.Checked)
-            {
-                SqlCommand komanda2 = new SqlCommand("UPDATE Kandidati SET prva_pomoc=1 WHERE jmbg=" + jmbg.Text + ";", veza);
-                komanda2.ExecuteNonQuery();
-            }
-            if (voznja.Checked)
-            {
-                SqlCommand komanda3 = new SqlCommand("UPDATE Kandidati SET voznja=1 WHERE jmbg=" + jmbg.Text + ";", veza);
-                komanda3.ExecuteNonQuery();
-            }
-
-            veza.Close();
+            pokupiPodatkeIzReda();
+            PromeniKandidati promeni = new PromeniKandidati();
+            promeni.primiPodatke(selectedIme, selectedPrezime, selectedJMGB, selectedAdresa, selectedInstruktor, selectedTeorija, selectedPrvaPomoc, selectedVoznja);
+            promeni.ShowDialog();
+            promeni.Dispose();
             osveziTable();
         }
 
         private void izbrisi_Click(object sender, EventArgs e)
         {
-            SqlConnection veza = new SqlConnection(global::AutoSkolaJUS.Properties.Settings.Default.strVeze);
-            veza.Open();
-
-            SqlCommand komanda = new SqlCommand("DELETE FROM Kandidati" +
-                                                "WHERE JMBG=" + jmbg.Text + ";", veza);
-            komanda.ExecuteNonQuery();
-            veza.Close();
-
+            pokupiPodatkeIzReda();
+            KandidatClass kandidat = new KandidatClass();
+            kandidat.JMBG = selectedJMGB;
+            kandidat.Delete();
             osveziTable();
         }
 
         private void osveziTable()
         {
             dt.Clear();
-            string kom = "SELECT * FROM Kandidati";
+            string kom = "SELECT ime,prezime,JMBG,adresa,instruktor,teorija,prva_pomoc,voznja FROM Kandidati";
             KonekcijaSBazom.UcitajTabelu(kom, ref dt);
             dataKandidata.DataSource = dt;
         }
@@ -174,6 +192,13 @@ namespace AutoSkolaJUS
             {
                 e.Handled = true;
             }
+        }
+
+        private void dataKandidata_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            promeni.Enabled = true;
+            izbrisi.Enabled = true;
+            pokupiPodatkeIzReda();
         }
     }
 }

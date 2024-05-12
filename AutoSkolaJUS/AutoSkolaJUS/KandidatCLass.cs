@@ -10,7 +10,6 @@ namespace AutoSkolaJUS
 {
     internal class KandidatClass
     {
-        public int KandidatID { get; set; }
         public string Ime { get; set; }
         public string Prezime { get; set; }
         public string JMBG { get; set; }
@@ -63,18 +62,18 @@ namespace AutoSkolaJUS
                     connection.Open();
                     using (SqlCommand cmd = new SqlCommand(
                         "UPDATE Kandidati " +
-                        "SET ime = @Ime, prezime = @Prezime, JMBG = @JMBG, adresa = @Adresa, instruktor = @InsturktorID, teorija = @Teorija, voznja = @Voznja, prva_pomoc = @PrvaPomoc " + //this shit long
-                        "WHERE KandidatID = @KandidatID", connection))
+                        "SET ime = @Ime, prezime = @Prezime, JMBG = @JMBG, adresa = @Adresa, instruktor = @InstruktorID, teorija = @Teorija, voznja = @Voznja, prva_pomoc = @PrvaPomoc " + //this shit long
+                        "WHERE JMBG = @JMBG", connection))
                     {
-                        cmd.Parameters.AddWithValue("@KandidatID", KandidatID);
                         cmd.Parameters.AddWithValue("@Ime", Ime);
                         cmd.Parameters.AddWithValue("@Prezime", Prezime);
                         cmd.Parameters.AddWithValue("@JMBG", JMBG);
                         cmd.Parameters.AddWithValue("@Adresa", Adresa);
-                        cmd.Parameters.AddWithValue("@InstruktorID", InstruktorID);
+                        cmd.Parameters.AddWithValue("@InstruktorID", InstruktorID == 0 ? DBNull.Value : (object)InstruktorID);
                         cmd.Parameters.AddWithValue("@Teorija", Teorija);
                         cmd.Parameters.AddWithValue("@Voznja", Voznja);
                         cmd.Parameters.AddWithValue("@PrvaPomoc", PrvaPomoc);
+                        
                         cmd.ExecuteNonQuery();
                     }
                 }
@@ -96,9 +95,9 @@ namespace AutoSkolaJUS
                 {
                     connection.Open();
                     using (SqlCommand cmd = new SqlCommand(
-                        "DELETE FROM Kandidati WHERE KandidatID = @KandidatID", connection))
+                        "DELETE FROM Kandidati WHERE JMBG = @JMBG", connection))
                     {
-                        cmd.Parameters.AddWithValue("@KandidatID", KandidatID);
+                        cmd.Parameters.AddWithValue("@JMBG", JMBG);
                         cmd.ExecuteNonQuery();
                     }
                 }

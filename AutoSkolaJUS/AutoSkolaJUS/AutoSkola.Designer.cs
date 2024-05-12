@@ -37,15 +37,14 @@
             this.polaganjaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.izlazToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.izvestajiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.polaganjaKandidataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.polozeniIspitiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.procentniPrikazIspitaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.procentniPrikazPoRadnikuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rangListaInstruktoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stanjeKandidata = new System.Windows.Forms.ToolStripMenuItem();
+            this.polozeniIspitiPoMesecu = new System.Windows.Forms.ToolStripMenuItem();
+            this.polozeniIspitiPoInstruktoru = new System.Windows.Forms.ToolStripMenuItem();
+            this.kandidatiKojiNisuPolozili = new System.Windows.Forms.ToolStripMenuItem();
+            this.rangListaInstruktora = new System.Windows.Forms.ToolStripMenuItem();
             this.name2lbl = new System.Windows.Forms.Label();
             this.name1lbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.kandidatiKojiSuPaliPolaganjeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -118,55 +117,54 @@
             // izvestajiToolStripMenuItem
             // 
             this.izvestajiToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.polaganjaKandidataToolStripMenuItem,
-            this.polozeniIspitiToolStripMenuItem,
-            this.kandidatiKojiSuPaliPolaganjeToolStripMenuItem,
-            this.procentniPrikazIspitaToolStripMenuItem,
-            this.procentniPrikazPoRadnikuToolStripMenuItem,
-            this.rangListaInstruktoraToolStripMenuItem});
+            this.stanjeKandidata,
+            this.polozeniIspitiPoMesecu,
+            this.polozeniIspitiPoInstruktoru,
+            this.kandidatiKojiNisuPolozili,
+            this.rangListaInstruktora});
             this.izvestajiToolStripMenuItem.Name = "izvestajiToolStripMenuItem";
             this.izvestajiToolStripMenuItem.Size = new System.Drawing.Size(90, 29);
             this.izvestajiToolStripMenuItem.Text = "Izveštaji";
             // 
-            // polaganjaKandidataToolStripMenuItem
+            // stanjeKandidata
             // 
-            this.polaganjaKandidataToolStripMenuItem.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.polaganjaKandidataToolStripMenuItem.Name = "polaganjaKandidataToolStripMenuItem";
-            this.polaganjaKandidataToolStripMenuItem.Size = new System.Drawing.Size(358, 34);
-            this.polaganjaKandidataToolStripMenuItem.Text = "Polaganja kandidata";
-            this.polaganjaKandidataToolStripMenuItem.Click += new System.EventHandler(this.polaganjaKandidataToolStripMenuItem_Click);
+            this.stanjeKandidata.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.stanjeKandidata.Name = "stanjeKandidata";
+            this.stanjeKandidata.Size = new System.Drawing.Size(340, 34);
+            this.stanjeKandidata.Text = "Stanje kandidata";
+            this.stanjeKandidata.Click += new System.EventHandler(this.stanjeKandidata_Click);
             // 
-            // polozeniIspitiToolStripMenuItem
+            // polozeniIspitiPoMesecu
             // 
-            this.polozeniIspitiToolStripMenuItem.BackColor = System.Drawing.Color.LightSlateGray;
-            this.polozeniIspitiToolStripMenuItem.Name = "polozeniIspitiToolStripMenuItem";
-            this.polozeniIspitiToolStripMenuItem.Size = new System.Drawing.Size(358, 34);
-            this.polozeniIspitiToolStripMenuItem.Text = "Položeni ispiti";
-            this.polozeniIspitiToolStripMenuItem.Click += new System.EventHandler(this.polozeniIspitiToolStripMenuItem_Click);
+            this.polozeniIspitiPoMesecu.BackColor = System.Drawing.Color.LightSlateGray;
+            this.polozeniIspitiPoMesecu.Name = "polozeniIspitiPoMesecu";
+            this.polozeniIspitiPoMesecu.Size = new System.Drawing.Size(340, 34);
+            this.polozeniIspitiPoMesecu.Text = "Položeni ispiti po mesecu";
+            this.polozeniIspitiPoMesecu.Click += new System.EventHandler(this.polozeniIspitiPoMesecu_Click);
             // 
-            // procentniPrikazIspitaToolStripMenuItem
+            // polozeniIspitiPoInstruktoru
             // 
-            this.procentniPrikazIspitaToolStripMenuItem.BackColor = System.Drawing.Color.LightSlateGray;
-            this.procentniPrikazIspitaToolStripMenuItem.Name = "procentniPrikazIspitaToolStripMenuItem";
-            this.procentniPrikazIspitaToolStripMenuItem.Size = new System.Drawing.Size(358, 34);
-            this.procentniPrikazIspitaToolStripMenuItem.Text = "Procentni prikaz ispita";
-            this.procentniPrikazIspitaToolStripMenuItem.Click += new System.EventHandler(this.procentniPrikazIspitaToolStripMenuItem_Click);
+            this.polozeniIspitiPoInstruktoru.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.polozeniIspitiPoInstruktoru.Name = "polozeniIspitiPoInstruktoru";
+            this.polozeniIspitiPoInstruktoru.Size = new System.Drawing.Size(340, 34);
+            this.polozeniIspitiPoInstruktoru.Text = "Položeni ispiti po instruktoru";
+            this.polozeniIspitiPoInstruktoru.Click += new System.EventHandler(this.polozeniIspitiPoInstruktoru_Click);
             // 
-            // procentniPrikazPoRadnikuToolStripMenuItem
+            // kandidatiKojiNisuPolozili
             // 
-            this.procentniPrikazPoRadnikuToolStripMenuItem.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.procentniPrikazPoRadnikuToolStripMenuItem.Name = "procentniPrikazPoRadnikuToolStripMenuItem";
-            this.procentniPrikazPoRadnikuToolStripMenuItem.Size = new System.Drawing.Size(358, 34);
-            this.procentniPrikazPoRadnikuToolStripMenuItem.Text = "Procentni prikaz po instruktoru";
-            this.procentniPrikazPoRadnikuToolStripMenuItem.Click += new System.EventHandler(this.procentniPrikazPoRadnikuToolStripMenuItem_Click);
+            this.kandidatiKojiNisuPolozili.BackColor = System.Drawing.Color.LightSlateGray;
+            this.kandidatiKojiNisuPolozili.Name = "kandidatiKojiNisuPolozili";
+            this.kandidatiKojiNisuPolozili.Size = new System.Drawing.Size(340, 34);
+            this.kandidatiKojiNisuPolozili.Text = "Kandidati koji nisu položili";
+            this.kandidatiKojiNisuPolozili.Click += new System.EventHandler(this.kandidatiKojiNisuPolozili_Click);
             // 
-            // rangListaInstruktoraToolStripMenuItem
+            // rangListaInstruktora
             // 
-            this.rangListaInstruktoraToolStripMenuItem.BackColor = System.Drawing.Color.LightSlateGray;
-            this.rangListaInstruktoraToolStripMenuItem.Name = "rangListaInstruktoraToolStripMenuItem";
-            this.rangListaInstruktoraToolStripMenuItem.Size = new System.Drawing.Size(358, 34);
-            this.rangListaInstruktoraToolStripMenuItem.Text = "Rang lista instruktora";
-            this.rangListaInstruktoraToolStripMenuItem.Click += new System.EventHandler(this.rangListaInstruktoraToolStripMenuItem_Click);
+            this.rangListaInstruktora.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.rangListaInstruktora.Name = "rangListaInstruktora";
+            this.rangListaInstruktora.Size = new System.Drawing.Size(340, 34);
+            this.rangListaInstruktora.Text = "Rang lista instruktora";
+            this.rangListaInstruktora.Click += new System.EventHandler(this.rangListaInstruktora_Click);
             // 
             // name2lbl
             // 
@@ -205,14 +203,6 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Valjevo";
             // 
-            // kandidatiKojiSuPaliPolaganjeToolStripMenuItem
-            // 
-            this.kandidatiKojiSuPaliPolaganjeToolStripMenuItem.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.kandidatiKojiSuPaliPolaganjeToolStripMenuItem.Name = "kandidatiKojiSuPaliPolaganjeToolStripMenuItem";
-            this.kandidatiKojiSuPaliPolaganjeToolStripMenuItem.Size = new System.Drawing.Size(358, 34);
-            this.kandidatiKojiSuPaliPolaganjeToolStripMenuItem.Text = "Kandidati koji nisu položili";
-            this.kandidatiKojiSuPaliPolaganjeToolStripMenuItem.Click += new System.EventHandler(this.kandidatiKojiSuPaliPolaganjeToolStripMenuItem_Click);
-            // 
             // AutoSkola
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -245,16 +235,15 @@
         private System.Windows.Forms.ToolStripMenuItem vozilaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem polaganjaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem izvestajiToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem polaganjaKandidataToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem polozeniIspitiToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem procentniPrikazIspitaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem procentniPrikazPoRadnikuToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rangListaInstruktoraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem stanjeKandidata;
+        private System.Windows.Forms.ToolStripMenuItem polozeniIspitiPoMesecu;
+        private System.Windows.Forms.ToolStripMenuItem polozeniIspitiPoInstruktoru;
+        private System.Windows.Forms.ToolStripMenuItem kandidatiKojiNisuPolozili;
+        private System.Windows.Forms.ToolStripMenuItem rangListaInstruktora;
         private System.Windows.Forms.ToolStripMenuItem izlazToolStripMenuItem;
         private System.Windows.Forms.Label name2lbl;
         private System.Windows.Forms.Label name1lbl;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ToolStripMenuItem kandidatiKojiSuPaliPolaganjeToolStripMenuItem;
     }
 }
 

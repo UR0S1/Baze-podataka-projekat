@@ -171,6 +171,7 @@
             this.dataKandidata.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataKandidata.Size = new System.Drawing.Size(585, 215);
             this.dataKandidata.TabIndex = 19;
+            this.dataKandidata.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataKandidata_CellClick);
             // 
             // voznjalbl
             // 
@@ -315,24 +316,6 @@
             // 
             this.instruktor.BackColor = System.Drawing.Color.PeachPuff;
             this.instruktor.FormattingEnabled = true;
-            this.instruktor.Items.AddRange(new object[] {
-            "AM",
-            "A1",
-            "A2",
-            "A",
-            "B1",
-            "B",
-            "BE",
-            "C1",
-            "C1E",
-            "C",
-            "CE",
-            "D1",
-            "D1E",
-            "D",
-            "DE",
-            "F",
-            "M"});
             this.instruktor.Location = new System.Drawing.Point(121, 161);
             this.instruktor.Margin = new System.Windows.Forms.Padding(4);
             this.instruktor.Name = "instruktor";
