@@ -165,6 +165,7 @@
             this.dataKandidata.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataKandidata.Name = "dataKandidata";
             this.dataKandidata.ReadOnly = true;
+            this.dataKandidata.RowHeadersVisible = false;
             this.dataKandidata.RowHeadersWidth = 62;
             this.dataKandidata.RowTemplate.Height = 28;
             this.dataKandidata.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
