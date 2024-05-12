@@ -52,19 +52,11 @@
     <Compile Include="AutoSkola.Designer.cs">
       <DependentUpon>AutoSkola.cs</DependentUpon>
     </Compile>
-    <Compile Include="KandidatClass.cs" />
     <Compile Include="Kandidati.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Kandidati.Designer.cs">
       <DependentUpon>Kandidati.cs</DependentUpon>
-    </Compile>
-    <Compile Include="KonekcijaSBazom.cs" />
-    <Compile Include="KandidatiKojiNisuPolozili.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="KandidatiKojiNisuPolozili.Designer.cs">
-      <DependentUpon>KandidatiKojiNisuPolozili.cs</DependentUpon>
     </Compile>
     <Compile Include="Polaganja.cs">
       <SubType>Form</SubType>
@@ -72,31 +64,49 @@
     <Compile Include="Polaganja.Designer.cs">
       <DependentUpon>Polaganja.cs</DependentUpon>
     </Compile>
-    <Compile Include="PolaganjaKandidata.cs">
+    <Compile Include="Izvestaji\PolozeniIspitiPoMesecu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PolaganjaKandidata.Designer.cs">
-      <DependentUpon>PolaganjaKandidata.cs</DependentUpon>
+    <Compile Include="Izvestaji\PolozeniIspitiPoMesecu.Designer.cs">
+      <DependentUpon>PolozeniIspitiPoMesecu.cs</DependentUpon>
     </Compile>
-    <Compile Include="PolozeniIspiti.cs">
+    <Compile Include="Izvestaji\KandidatiKojiNisuPolozili.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PolozeniIspiti.Designer.cs">
-      <DependentUpon>PolozeniIspiti.cs</DependentUpon>
+    <Compile Include="Izvestaji\KandidatiKojiNisuPolozili.Designer.cs">
+      <DependentUpon>KandidatiKojiNisuPolozili.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProcentniPrikazIspita.cs">
+    <Compile Include="Izvestaji\PolozeniIspitiPoInstruktoru.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProcentniPrikazIspita.Designer.cs">
-      <DependentUpon>ProcentniPrikazIspita.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProcentniPrikazPoInstruktoru.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProcentniPrikazPoInstruktoru.Designer.cs">
-      <DependentUpon>ProcentniPrikazPoInstruktoru.cs</DependentUpon>
+    <Compile Include="Izvestaji\PolozeniIspitiPoInstruktoru.Designer.cs">
+      <DependentUpon>PolozeniIspitiPoInstruktoru.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="FormPromeni\PromeniRadnici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPromeni\PromeniRadnici.Designer.cs">
+      <DependentUpon>PromeniRadnici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPromeni\PromeniKandidati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPromeni\PromeniKandidati.Designer.cs">
+      <DependentUpon>PromeniKandidati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPromeni\PromeniVozila.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPromeni\PromeniVozila.Designer.cs">
+      <DependentUpon>PromeniVozila.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPromeni\PromeniPolaganja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPromeni\PromeniPolaganja.Designer.cs">
+      <DependentUpon>PromeniPolaganja.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Radnici.cs">
       <SubType>Form</SubType>
@@ -104,17 +114,17 @@
     <Compile Include="Radnici.Designer.cs">
       <DependentUpon>Radnici.cs</DependentUpon>
     </Compile>
-    <Compile Include="RadniciIzmenaForm.cs">
+    <Compile Include="Izvestaji\RangListaInstruktora.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RadniciIzmenaForm.Designer.cs">
-      <DependentUpon>RadniciIzmenaForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="RangListaInstruktora.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RangListaInstruktora.Designer.cs">
+    <Compile Include="Izvestaji\RangListaInstruktora.Designer.cs">
       <DependentUpon>RangListaInstruktora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Izvestaji\StanjeKandidata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izvestaji\StanjeKandidata.Designer.cs">
+      <DependentUpon>StanjeKandidata.cs</DependentUpon>
     </Compile>
     <Compile Include="Vozila.cs">
       <SubType>Form</SubType>
@@ -125,26 +135,32 @@
     <EmbeddedResource Include="AutoSkola.resx">
       <DependentUpon>AutoSkola.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPromeni\PromeniRadnici.resx">
+      <DependentUpon>PromeniRadnici.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Kandidati.resx">
       <DependentUpon>Kandidati.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KandidatiKojiNisuPolozili.resx">
-      <DependentUpon>KandidatiKojiNisuPolozili.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Polaganja.resx">
       <DependentUpon>Polaganja.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PolaganjaKandidata.resx">
-      <DependentUpon>PolaganjaKandidata.cs</DependentUpon>
+    <EmbeddedResource Include="Izvestaji\PolozeniIspitiPoMesecu.resx">
+      <DependentUpon>PolozeniIspitiPoMesecu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PolozeniIspiti.resx">
-      <DependentUpon>PolozeniIspiti.cs</DependentUpon>
+    <EmbeddedResource Include="Izvestaji\KandidatiKojiNisuPolozili.resx">
+      <DependentUpon>KandidatiKojiNisuPolozili.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProcentniPrikazIspita.resx">
-      <DependentUpon>ProcentniPrikazIspita.cs</DependentUpon>
+    <EmbeddedResource Include="Izvestaji\PolozeniIspitiPoInstruktoru.resx">
+      <DependentUpon>PolozeniIspitiPoInstruktoru.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProcentniPrikazPoInstruktoru.resx">
-      <DependentUpon>ProcentniPrikazPoInstruktoru.cs</DependentUpon>
+    <EmbeddedResource Include="FormPromeni\PromeniKandidati.resx">
+      <DependentUpon>PromeniKandidati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPromeni\PromeniVozila.resx">
+      <DependentUpon>PromeniVozila.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPromeni\PromeniPolaganja.resx">
+      <DependentUpon>PromeniPolaganja.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -159,11 +175,11 @@
     <EmbeddedResource Include="Radnici.resx">
       <DependentUpon>Radnici.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RadniciIzmenaForm.resx">
-      <DependentUpon>RadniciIzmenaForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RangListaInstruktora.resx">
+    <EmbeddedResource Include="Izvestaji\RangListaInstruktora.resx">
       <DependentUpon>RangListaInstruktora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izvestaji\StanjeKandidata.resx">
+      <DependentUpon>StanjeKandidata.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vozila.resx">
       <DependentUpon>Vozila.cs</DependentUpon>
@@ -187,5 +203,6 @@
   <ItemGroup>
     <None Include="Resources\background2.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

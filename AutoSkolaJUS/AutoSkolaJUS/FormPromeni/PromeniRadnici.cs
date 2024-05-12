@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace AutoSkolaJUS
 {
-    public partial class KandidatiKojiNisuPolozili : Form
+    public partial class PromeniRadnici : Form
     {
-        public KandidatiKojiNisuPolozili()
+        public PromeniRadnici()
         {
             InitializeComponent();
         }
 
-        private void nazad_Click(object sender, EventArgs e)
+        private void odustani_Click(object sender, EventArgs e)
         {
             this.Close();
         }

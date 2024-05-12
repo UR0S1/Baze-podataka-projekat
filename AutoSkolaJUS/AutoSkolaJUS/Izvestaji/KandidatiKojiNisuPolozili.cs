@@ -10,23 +10,20 @@ using System.Windows.Forms;
 
 namespace AutoSkolaJUS
 {
-    public partial class Vozila : Form
+    public partial class KandidatiKojiNisuPolozili : Form
     {
-        public Vozila()
+        public KandidatiKojiNisuPolozili()
         {
             InitializeComponent();
         }
-
-        private void izlaz_Click_1(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            this.Close();
+
         }
 
-        private void promeni_Click(object sender, EventArgs e)
+        private void nazad_Click(object sender, EventArgs e)
         {
-            PromeniVozila form = new PromeniVozila();
-            form.ShowDialog();
-            form.Dispose();
+            this.Close();
         }
     }
 }

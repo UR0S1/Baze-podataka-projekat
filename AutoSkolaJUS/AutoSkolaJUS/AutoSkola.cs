@@ -50,44 +50,37 @@ namespace AutoSkolaJUS
             Application.Exit();
         }
 
-        private void polaganjaKandidataToolStripMenuItem_Click(object sender, EventArgs e)
+        private void stanjeKandidata_Click(object sender, EventArgs e)
         {
-            PolaganjaKandidata form = new PolaganjaKandidata();
+            StanjeKandidata form = new StanjeKandidata();
             form.ShowDialog();
             form.Dispose();
         }
 
-        private void polozeniIspitiToolStripMenuItem_Click(object sender, EventArgs e)
+        private void polozeniIspitiPoMesecu_Click(object sender, EventArgs e)
         {
-            PolozeniIspiti form = new PolozeniIspiti();
+            PolozeniIspitiPoMesecu form = new PolozeniIspitiPoMesecu();
             form.ShowDialog();
             form.Dispose();
         }
 
-        private void procentniPrikazIspitaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void polozeniIspitiPoInstruktoru_Click(object sender, EventArgs e)
         {
-            ProcentniPrikazIspita form = new ProcentniPrikazIspita();
+            PolozeniIspitiPoInstruktoru form = new PolozeniIspitiPoInstruktoru();
             form.ShowDialog();
             form.Dispose();
         }
 
-        private void procentniPrikazPoRadnikuToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ProcentniPrikazPoInstruktoru form = new ProcentniPrikazPoInstruktoru();
-            form.ShowDialog();
-            form.Dispose();
-        }
-
-        private void rangListaInstruktoraToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            RangListaInstruktora form = new RangListaInstruktora();
-            form.ShowDialog();
-            form.Dispose();
-        }
-
-        private void kandidatiKojiSuPaliPolaganjeToolStripMenuItem_Click(object sender, EventArgs e)
+        private void kandidatiKojiNisuPolozili_Click(object sender, EventArgs e)
         {
             KandidatiKojiNisuPolozili form = new KandidatiKojiNisuPolozili();
+            form.ShowDialog();
+            form.Dispose();
+        }
+
+        private void rangListaInstruktora_Click(object sender, EventArgs e)
+        {
+            RangListaInstruktora form = new RangListaInstruktora();
             form.ShowDialog();
             form.Dispose();
         }

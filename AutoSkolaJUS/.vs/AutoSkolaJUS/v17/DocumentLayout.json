@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\",
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\moj 13. razlog\\Baze podataka\\GrupniProjAUTOSKOLA\\Design\\AutoSkolaJUSDesign\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|c:\\users\\hp\\downloads\\autoskolajus\\autoskolajus\\kandidatikojinisupolozili.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|solutionrelative:autoskolajus\\kandidatikojinisupolozili.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|c:\\users\\hp\\desktop\\moj 13. razlog\\baze podataka\\grupniprojautoskola\\design\\autoskolajusdesign\\autoskolajus\\formpromeni\\promenipolaganja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|solutionrelative:autoskolajus\\formpromeni\\promenipolaganja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\autoskolajus\\kandidatikojinisupolozili.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|solutionrelative:autoskolajus\\kandidatikojinisupolozili.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|c:\\users\\hp\\desktop\\moj 13. razlog\\baze podataka\\grupniprojautoskola\\design\\autoskolajusdesign\\autoskolajus\\formpromeni\\promenivozila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|solutionrelative:autoskolajus\\formpromeni\\promenivozila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\autoskolajus\\procentniprikazpoinstruktoru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|solutionrelative:autoskolajus\\procentniprikazpoinstruktoru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|c:\\users\\hp\\desktop\\moj 13. razlog\\baze podataka\\grupniprojautoskola\\design\\autoskolajusdesign\\autoskolajus\\polaganja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|solutionrelative:autoskolajus\\polaganja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\autoskolajus\\autoskola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|solutionrelative:autoskolajus\\autoskola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|c:\\users\\hp\\desktop\\moj 13. razlog\\baze podataka\\grupniprojautoskola\\design\\autoskolajusdesign\\autoskolajus\\vozila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|solutionrelative:autoskolajus\\vozila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\autoskolajus\\autoskola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|c:\\users\\hp\\desktop\\moj 13. razlog\\baze podataka\\grupniprojautoskola\\design\\autoskolajusdesign\\autoskolajus\\autoskola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|solutionrelative:autoskolajus\\autoskola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\autoskolajus\\polozeniispiti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9D37D361-5395-4DCF-BB6C-5CEC974AEFB5}|AutoSkolaJUS\\AutoSkolaJUS.csproj|solutionrelative:autoskolajus\\polozeniispiti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,77 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AutoSkola.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\AutoSkolaJUS\\AutoSkola.cs",
-              "RelativeDocumentMoniker": "AutoSkolaJUS\\AutoSkola.cs",
-              "ToolTip": "C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\AutoSkolaJUS\\AutoSkola.cs",
-              "RelativeToolTip": "AutoSkolaJUS\\AutoSkola.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAAwFsAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:20:19.954Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "KandidatiKojiNisuPolozili.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\AutoSkolaJUS\\KandidatiKojiNisuPolozili.cs",
-              "RelativeDocumentMoniker": "AutoSkolaJUS\\KandidatiKojiNisuPolozili.cs",
-              "ToolTip": "C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\AutoSkolaJUS\\KandidatiKojiNisuPolozili.cs",
-              "RelativeToolTip": "AutoSkolaJUS\\KandidatiKojiNisuPolozili.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAtwBUAAAAZAAAA",
+              "Title": "PromeniVozila.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\moj 13. razlog\\Baze podataka\\GrupniProjAUTOSKOLA\\Design\\AutoSkolaJUSDesign\\AutoSkolaJUS\\FormPromeni\\PromeniVozila.cs",
+              "RelativeDocumentMoniker": "AutoSkolaJUS\\FormPromeni\\PromeniVozila.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\moj 13. razlog\\Baze podataka\\GrupniProjAUTOSKOLA\\Design\\AutoSkolaJUSDesign\\AutoSkolaJUS\\FormPromeni\\PromeniVozila.cs [Design]",
+              "RelativeToolTip": "AutoSkolaJUS\\FormPromeni\\PromeniVozila.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:20:04.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProcentniPrikazPoInstruktoru.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\AutoSkolaJUS\\ProcentniPrikazPoInstruktoru.cs",
-              "RelativeDocumentMoniker": "AutoSkolaJUS\\ProcentniPrikazPoInstruktoru.cs",
-              "ToolTip": "C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\AutoSkolaJUS\\ProcentniPrikazPoInstruktoru.cs [Design]",
-              "RelativeToolTip": "AutoSkolaJUS\\ProcentniPrikazPoInstruktoru.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:18:56.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "KandidatiKojiNisuPolozili.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\AutoSkolaJUS\\KandidatiKojiNisuPolozili.cs",
-              "RelativeDocumentMoniker": "AutoSkolaJUS\\KandidatiKojiNisuPolozili.cs",
-              "ToolTip": "C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\AutoSkolaJUS\\KandidatiKojiNisuPolozili.cs [Design]",
-              "RelativeToolTip": "AutoSkolaJUS\\KandidatiKojiNisuPolozili.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:13:30.693Z",
+              "WhenOpened": "2024-05-11T16:39:19.061Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PolozeniIspiti.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\AutoSkolaJUS\\PolozeniIspiti.cs",
-              "RelativeDocumentMoniker": "AutoSkolaJUS\\PolozeniIspiti.cs",
-              "ToolTip": "C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\AutoSkolaJUS\\PolozeniIspiti.cs [Design]",
-              "RelativeToolTip": "AutoSkolaJUS\\PolozeniIspiti.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "PromeniPolaganja.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\moj 13. razlog\\Baze podataka\\GrupniProjAUTOSKOLA\\Design\\AutoSkolaJUSDesign\\AutoSkolaJUS\\FormPromeni\\PromeniPolaganja.cs",
+              "RelativeDocumentMoniker": "AutoSkolaJUS\\FormPromeni\\PromeniPolaganja.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\moj 13. razlog\\Baze podataka\\GrupniProjAUTOSKOLA\\Design\\AutoSkolaJUSDesign\\AutoSkolaJUS\\FormPromeni\\PromeniPolaganja.cs [Design]",
+              "RelativeToolTip": "AutoSkolaJUS\\FormPromeni\\PromeniPolaganja.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:18:51.113Z"
+              "WhenOpened": "2024-05-11T16:39:02.008Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vozila.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\moj 13. razlog\\Baze podataka\\GrupniProjAUTOSKOLA\\Design\\AutoSkolaJUSDesign\\AutoSkolaJUS\\Vozila.cs",
+              "RelativeDocumentMoniker": "AutoSkolaJUS\\Vozila.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\moj 13. razlog\\Baze podataka\\GrupniProjAUTOSKOLA\\Design\\AutoSkolaJUSDesign\\AutoSkolaJUS\\Vozila.cs [Design]",
+              "RelativeToolTip": "AutoSkolaJUS\\Vozila.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T16:37:34.246Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Polaganja.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\moj 13. razlog\\Baze podataka\\GrupniProjAUTOSKOLA\\Design\\AutoSkolaJUSDesign\\AutoSkolaJUS\\Polaganja.cs",
+              "RelativeDocumentMoniker": "AutoSkolaJUS\\Polaganja.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\moj 13. razlog\\Baze podataka\\GrupniProjAUTOSKOLA\\Design\\AutoSkolaJUSDesign\\AutoSkolaJUS\\Polaganja.cs [Design]",
+              "RelativeToolTip": "AutoSkolaJUS\\Polaganja.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T16:37:11.415Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "AutoSkola.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\AutoSkolaJUS\\AutoSkola.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\moj 13. razlog\\Baze podataka\\GrupniProjAUTOSKOLA\\Design\\AutoSkolaJUSDesign\\AutoSkolaJUS\\AutoSkola.cs",
               "RelativeDocumentMoniker": "AutoSkolaJUS\\AutoSkola.cs",
-              "ToolTip": "C:\\Users\\HP\\Downloads\\AutoSkolaJUS\\AutoSkolaJUS\\AutoSkola.cs [Design]",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\moj 13. razlog\\Baze podataka\\GrupniProjAUTOSKOLA\\Design\\AutoSkolaJUSDesign\\AutoSkolaJUS\\AutoSkola.cs [Design]",
               "RelativeToolTip": "AutoSkolaJUS\\AutoSkola.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T19:14:40.308Z"
+              "WhenOpened": "2024-05-11T16:37:08.754Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
