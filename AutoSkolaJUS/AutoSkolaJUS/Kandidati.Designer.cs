@@ -172,6 +172,7 @@
             this.dataKandidata.Size = new System.Drawing.Size(585, 215);
             this.dataKandidata.TabIndex = 19;
             this.dataKandidata.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataKandidata_CellClick);
+            this.dataKandidata.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataKandidata_CellClick);
             // 
             // voznjalbl
             // 

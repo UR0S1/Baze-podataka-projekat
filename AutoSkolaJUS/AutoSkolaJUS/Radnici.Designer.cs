@@ -58,23 +58,24 @@
             this.izbrisi.BackColor = System.Drawing.Color.SandyBrown;
             this.izbrisi.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.izbrisi.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.izbrisi.Location = new System.Drawing.Point(741, 186);
+            this.izbrisi.Location = new System.Drawing.Point(659, 149);
             this.izbrisi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.izbrisi.Name = "izbrisi";
-            this.izbrisi.Size = new System.Drawing.Size(163, 53);
+            this.izbrisi.Size = new System.Drawing.Size(145, 42);
             this.izbrisi.TabIndex = 104;
             this.izbrisi.Text = "IZBRIŠI";
             this.izbrisi.UseVisualStyleBackColor = false;
+            this.izbrisi.Click += new System.EventHandler(this.izbrisi_Click);
             // 
             // promeni
             // 
             this.promeni.BackColor = System.Drawing.Color.SandyBrown;
             this.promeni.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.promeni.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.promeni.Location = new System.Drawing.Point(741, 111);
+            this.promeni.Location = new System.Drawing.Point(659, 89);
             this.promeni.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.promeni.Name = "promeni";
-            this.promeni.Size = new System.Drawing.Size(163, 53);
+            this.promeni.Size = new System.Drawing.Size(145, 42);
             this.promeni.TabIndex = 103;
             this.promeni.Text = "PROMENI";
             this.promeni.UseVisualStyleBackColor = false;
@@ -85,23 +86,24 @@
             this.dodaj.BackColor = System.Drawing.Color.SandyBrown;
             this.dodaj.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.dodaj.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dodaj.Location = new System.Drawing.Point(741, 31);
+            this.dodaj.Location = new System.Drawing.Point(659, 25);
             this.dodaj.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dodaj.Name = "dodaj";
-            this.dodaj.Size = new System.Drawing.Size(163, 53);
+            this.dodaj.Size = new System.Drawing.Size(145, 42);
             this.dodaj.TabIndex = 102;
             this.dodaj.Text = "DODAJ";
             this.dodaj.UseVisualStyleBackColor = false;
+            this.dodaj.Click += new System.EventHandler(this.dodaj_Click);
             // 
             // osvezi
             // 
             this.osvezi.BackColor = System.Drawing.Color.LightSlateGray;
             this.osvezi.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.osvezi.Font = new System.Drawing.Font("Tw Cen MT", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.osvezi.Location = new System.Drawing.Point(795, 383);
+            this.osvezi.Location = new System.Drawing.Point(707, 306);
             this.osvezi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.osvezi.Name = "osvezi";
-            this.osvezi.Size = new System.Drawing.Size(110, 53);
+            this.osvezi.Size = new System.Drawing.Size(97, 42);
             this.osvezi.TabIndex = 101;
             this.osvezi.Text = "OSVEŽI";
             this.osvezi.UseVisualStyleBackColor = false;
@@ -111,10 +113,10 @@
             this.izlaz.BackColor = System.Drawing.Color.LightSlateGray;
             this.izlaz.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.izlaz.Font = new System.Drawing.Font("Tw Cen MT", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.izlaz.Location = new System.Drawing.Point(795, 464);
+            this.izlaz.Location = new System.Drawing.Point(707, 372);
             this.izlaz.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.izlaz.Name = "izlaz";
-            this.izlaz.Size = new System.Drawing.Size(110, 53);
+            this.izlaz.Size = new System.Drawing.Size(97, 42);
             this.izlaz.TabIndex = 100;
             this.izlaz.Text = "IZLAZ";
             this.izlaz.UseVisualStyleBackColor = false;
@@ -124,15 +126,10 @@
             // 
             this.pozicija.BackColor = System.Drawing.Color.PeachPuff;
             this.pozicija.FormattingEnabled = true;
-            this.pozicija.Items.AddRange(new object[] {
-            "instruktor",
-            "glavni instruktor",
-            "predavač",
-            "sekretar"});
-            this.pozicija.Location = new System.Drawing.Point(502, 96);
-            this.pozicija.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pozicija.Location = new System.Drawing.Point(447, 76);
+            this.pozicija.Margin = new System.Windows.Forms.Padding(4);
             this.pozicija.Name = "pozicija";
-            this.pozicija.Size = new System.Drawing.Size(186, 28);
+            this.pozicija.Size = new System.Drawing.Size(165, 24);
             this.pozicija.TabIndex = 99;
             // 
             // vozilolbl
@@ -141,9 +138,9 @@
             this.vozilolbl.BackColor = System.Drawing.Color.Transparent;
             this.vozilolbl.Font = new System.Drawing.Font("Tw Cen MT", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vozilolbl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.vozilolbl.Location = new System.Drawing.Point(388, 146);
+            this.vozilolbl.Location = new System.Drawing.Point(345, 117);
             this.vozilolbl.Name = "vozilolbl";
-            this.vozilolbl.Size = new System.Drawing.Size(77, 23);
+            this.vozilolbl.Size = new System.Drawing.Size(66, 20);
             this.vozilolbl.TabIndex = 97;
             this.vozilolbl.Text = "VOZILO";
             // 
@@ -153,18 +150,19 @@
             this.pozicijalbl.BackColor = System.Drawing.Color.Transparent;
             this.pozicijalbl.Font = new System.Drawing.Font("Tw Cen MT", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pozicijalbl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pozicijalbl.Location = new System.Drawing.Point(388, 98);
+            this.pozicijalbl.Location = new System.Drawing.Point(345, 79);
             this.pozicijalbl.Name = "pozicijalbl";
-            this.pozicijalbl.Size = new System.Drawing.Size(88, 23);
+            this.pozicijalbl.Size = new System.Drawing.Size(75, 20);
             this.pozicijalbl.TabIndex = 96;
             this.pozicijalbl.Text = "POZICIJA";
             // 
             // adresa
             // 
             this.adresa.BackColor = System.Drawing.Color.PeachPuff;
-            this.adresa.Location = new System.Drawing.Point(502, 46);
+            this.adresa.Location = new System.Drawing.Point(447, 37);
+            this.adresa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.adresa.Name = "adresa";
-            this.adresa.Size = new System.Drawing.Size(186, 26);
+            this.adresa.Size = new System.Drawing.Size(165, 22);
             this.adresa.TabIndex = 95;
             // 
             // adresalbl
@@ -173,18 +171,19 @@
             this.adresalbl.BackColor = System.Drawing.Color.Transparent;
             this.adresalbl.Font = new System.Drawing.Font("Tw Cen MT", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.adresalbl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.adresalbl.Location = new System.Drawing.Point(388, 50);
+            this.adresalbl.Location = new System.Drawing.Point(345, 39);
             this.adresalbl.Name = "adresalbl";
-            this.adresalbl.Size = new System.Drawing.Size(77, 23);
+            this.adresalbl.Size = new System.Drawing.Size(64, 20);
             this.adresalbl.TabIndex = 94;
             this.adresalbl.Text = "ADRESA";
             // 
             // jmbg
             // 
             this.jmbg.BackColor = System.Drawing.Color.PeachPuff;
-            this.jmbg.Location = new System.Drawing.Point(127, 143);
+            this.jmbg.Location = new System.Drawing.Point(113, 114);
+            this.jmbg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.jmbg.Name = "jmbg";
-            this.jmbg.Size = new System.Drawing.Size(186, 26);
+            this.jmbg.Size = new System.Drawing.Size(165, 22);
             this.jmbg.TabIndex = 93;
             // 
             // jmbglbl
@@ -193,18 +192,19 @@
             this.jmbglbl.BackColor = System.Drawing.Color.Transparent;
             this.jmbglbl.Font = new System.Drawing.Font("Tw Cen MT", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.jmbglbl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.jmbglbl.Location = new System.Drawing.Point(26, 146);
+            this.jmbglbl.Location = new System.Drawing.Point(23, 117);
             this.jmbglbl.Name = "jmbglbl";
-            this.jmbglbl.Size = new System.Drawing.Size(59, 23);
+            this.jmbglbl.Size = new System.Drawing.Size(50, 20);
             this.jmbglbl.TabIndex = 92;
             this.jmbglbl.Text = "JMBG";
             // 
             // prezime
             // 
             this.prezime.BackColor = System.Drawing.Color.PeachPuff;
-            this.prezime.Location = new System.Drawing.Point(127, 94);
+            this.prezime.Location = new System.Drawing.Point(113, 75);
+            this.prezime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.prezime.Name = "prezime";
-            this.prezime.Size = new System.Drawing.Size(186, 26);
+            this.prezime.Size = new System.Drawing.Size(165, 22);
             this.prezime.TabIndex = 91;
             // 
             // prezimelbl
@@ -213,18 +213,19 @@
             this.prezimelbl.BackColor = System.Drawing.Color.Transparent;
             this.prezimelbl.Font = new System.Drawing.Font("Tw Cen MT", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prezimelbl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.prezimelbl.Location = new System.Drawing.Point(26, 95);
+            this.prezimelbl.Location = new System.Drawing.Point(23, 76);
             this.prezimelbl.Name = "prezimelbl";
-            this.prezimelbl.Size = new System.Drawing.Size(79, 23);
+            this.prezimelbl.Size = new System.Drawing.Size(66, 20);
             this.prezimelbl.TabIndex = 90;
             this.prezimelbl.Text = "PREZIME";
             // 
             // ime
             // 
             this.ime.BackColor = System.Drawing.Color.PeachPuff;
-            this.ime.Location = new System.Drawing.Point(127, 45);
+            this.ime.Location = new System.Drawing.Point(113, 36);
+            this.ime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ime.Name = "ime";
-            this.ime.Size = new System.Drawing.Size(186, 26);
+            this.ime.Size = new System.Drawing.Size(165, 22);
             this.ime.TabIndex = 89;
             // 
             // imelbl
@@ -233,14 +234,16 @@
             this.imelbl.BackColor = System.Drawing.Color.Transparent;
             this.imelbl.Font = new System.Drawing.Font("Tw Cen MT", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.imelbl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.imelbl.Location = new System.Drawing.Point(26, 49);
+            this.imelbl.Location = new System.Drawing.Point(23, 39);
             this.imelbl.Name = "imelbl";
-            this.imelbl.Size = new System.Drawing.Size(38, 23);
+            this.imelbl.Size = new System.Drawing.Size(33, 20);
             this.imelbl.TabIndex = 88;
             this.imelbl.Text = "IME";
             // 
             // dataRadnika
             // 
+            this.dataRadnika.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataRadnika.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataRadnika.BackgroundColor = System.Drawing.SystemColors.ControlDark;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
@@ -259,8 +262,10 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataRadnika.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataRadnika.Location = new System.Drawing.Point(30, 201);
+            this.dataRadnika.Location = new System.Drawing.Point(27, 161);
+            this.dataRadnika.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataRadnika.Name = "dataRadnika";
+            this.dataRadnika.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -269,28 +274,32 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataRadnika.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dataRadnika.RowHeadersVisible = false;
             this.dataRadnika.RowHeadersWidth = 62;
             this.dataRadnika.RowTemplate.Height = 28;
-            this.dataRadnika.Size = new System.Drawing.Size(658, 316);
+            this.dataRadnika.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataRadnika.Size = new System.Drawing.Size(585, 252);
             this.dataRadnika.TabIndex = 87;
+            this.dataRadnika.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataRadnika_CellClick);
+            this.dataRadnika.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataRadnika_CellClick);
             // 
             // vozilo
             // 
             this.vozilo.BackColor = System.Drawing.Color.PeachPuff;
             this.vozilo.FormattingEnabled = true;
-            this.vozilo.Location = new System.Drawing.Point(502, 145);
-            this.vozilo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.vozilo.Location = new System.Drawing.Point(447, 116);
+            this.vozilo.Margin = new System.Windows.Forms.Padding(4);
             this.vozilo.Name = "vozilo";
-            this.vozilo.Size = new System.Drawing.Size(186, 28);
+            this.vozilo.Size = new System.Drawing.Size(165, 24);
             this.vozilo.TabIndex = 105;
             // 
             // Radnici
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::AutoSkolaJUS.Properties.Resources.background2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(931, 548);
+            this.ClientSize = new System.Drawing.Size(828, 438);
             this.Controls.Add(this.vozilo);
             this.Controls.Add(this.izbrisi);
             this.Controls.Add(this.promeni);
@@ -310,6 +319,7 @@
             this.Controls.Add(this.imelbl);
             this.Controls.Add(this.dataRadnika);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Radnici";
             this.Text = "Radnici";
             ((System.ComponentModel.ISupportInitialize)(this.dataRadnika)).EndInit();

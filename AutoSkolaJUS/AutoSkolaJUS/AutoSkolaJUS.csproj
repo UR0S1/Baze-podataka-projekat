@@ -84,6 +84,7 @@
     <Compile Include="Izvestaji\PolozeniIspitiPoInstruktoru.Designer.cs">
       <DependentUpon>PolozeniIspitiPoInstruktoru.cs</DependentUpon>
     </Compile>
+    <Compile Include="PolaganjeClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="FormPromeni\PromeniRadnici.cs">
       <SubType>Form</SubType>
@@ -128,12 +129,14 @@
     <Compile Include="Izvestaji\StanjeKandidata.Designer.cs">
       <DependentUpon>StanjeKandidata.cs</DependentUpon>
     </Compile>
+    <Compile Include="RadnikClass.cs" />
     <Compile Include="Vozila.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vozila.Designer.cs">
       <DependentUpon>Vozila.cs</DependentUpon>
     </Compile>
+    <Compile Include="VoziloClass.cs" />
     <EmbeddedResource Include="AutoSkola.resx">
       <DependentUpon>AutoSkola.cs</DependentUpon>
     </EmbeddedResource>
@@ -186,6 +189,9 @@
     <EmbeddedResource Include="Vozila.resx">
       <DependentUpon>Vozila.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
