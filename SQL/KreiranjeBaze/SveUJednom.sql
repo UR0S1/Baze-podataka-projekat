@@ -37,7 +37,7 @@ CREATE TABLE Duzi (
     radnik INT,
     vozilo INT,
     datum_zaduzenja DATE,
-    datum_razduzenja DATE NULL,
+    datum_razduzenja DATE,
     PRIMARY KEY (radnik, vozilo, datum_zaduzenja)
 );
 
@@ -162,8 +162,8 @@ INSERT INTO Polaganje (vrsta_polaganja, kategorija, kandidat, datum, polozen) VA
 -- Duzenja
 INSERT INTO Duzi (radnik, vozilo, datum_zaduzenja, datum_razduzenja) VALUES
     (1, 1, '2024-04-18', '2024-04-25'),
-    (2, 2, '2024-04-19', NULL),
+    (2, 2, '2024-04-19', '2024-04-30'),
     (1, 3, '2024-04-20', '2024-04-27'),
-    (2, 4, '2024-04-21', NULL),
+    (2, 4, '2024-04-21', '2024-05-1'),
     (1, 1, '2024-04-26', '2024-04-29');
 

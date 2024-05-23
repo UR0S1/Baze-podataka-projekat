@@ -180,3 +180,5 @@ C:\Users\Uros\Downloads\Baze-podataka-projekat-main(1)\Baze-podataka-projekat-ma
 C:\Users\Uros\Downloads\Baze-podataka-projekat-main(1)\Baze-podataka-projekat-main\Baze-podataka-projekat-main\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.csproj.CoreCompileInputs.cache
 C:\Users\Uros\Downloads\Baze-podataka-projekat-main(1)\Baze-podataka-projekat-main\Baze-podataka-projekat-main\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.exe
 C:\Users\Uros\Downloads\Baze-podataka-projekat-main(1)\Baze-podataka-projekat-main\Baze-podataka-projekat-main\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.pdb
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.Duzi.resources
+E:\Skola\Baze podataka\Baze-podataka-projekat\AutoSkolaJUS\AutoSkolaJUS\obj\Debug\AutoSkolaJUS.FormPromeni.PromeniDuzi.resources

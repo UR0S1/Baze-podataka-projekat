@@ -45,20 +45,21 @@
             this.name2lbl = new System.Windows.Forms.Label();
             this.name1lbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.Duzi = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.radnaBazaToolStripMenuItem,
             this.izvestajiToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(854, 33);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(759, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -68,17 +69,18 @@
             this.radniciToolStripMenuItem,
             this.kandidatiToolStripMenuItem,
             this.vozilaToolStripMenuItem,
+            this.Duzi,
             this.polaganjaToolStripMenuItem,
             this.izlazToolStripMenuItem});
             this.radnaBazaToolStripMenuItem.Name = "radnaBazaToolStripMenuItem";
-            this.radnaBazaToolStripMenuItem.Size = new System.Drawing.Size(120, 29);
+            this.radnaBazaToolStripMenuItem.Size = new System.Drawing.Size(101, 26);
             this.radnaBazaToolStripMenuItem.Text = "Radna baza";
             // 
             // radniciToolStripMenuItem
             // 
             this.radniciToolStripMenuItem.BackColor = System.Drawing.Color.LightSteelBlue;
             this.radniciToolStripMenuItem.Name = "radniciToolStripMenuItem";
-            this.radniciToolStripMenuItem.Size = new System.Drawing.Size(190, 34);
+            this.radniciToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.radniciToolStripMenuItem.Text = "Radnici";
             this.radniciToolStripMenuItem.Click += new System.EventHandler(this.radniciToolStripMenuItem_Click);
             // 
@@ -86,7 +88,7 @@
             // 
             this.kandidatiToolStripMenuItem.BackColor = System.Drawing.Color.LightSteelBlue;
             this.kandidatiToolStripMenuItem.Name = "kandidatiToolStripMenuItem";
-            this.kandidatiToolStripMenuItem.Size = new System.Drawing.Size(190, 34);
+            this.kandidatiToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.kandidatiToolStripMenuItem.Text = "Kandidati";
             this.kandidatiToolStripMenuItem.Click += new System.EventHandler(this.kandidatiToolStripMenuItem_Click);
             // 
@@ -94,7 +96,7 @@
             // 
             this.vozilaToolStripMenuItem.BackColor = System.Drawing.Color.LightSteelBlue;
             this.vozilaToolStripMenuItem.Name = "vozilaToolStripMenuItem";
-            this.vozilaToolStripMenuItem.Size = new System.Drawing.Size(190, 34);
+            this.vozilaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.vozilaToolStripMenuItem.Text = "Vozila";
             this.vozilaToolStripMenuItem.Click += new System.EventHandler(this.vozilaToolStripMenuItem_Click);
             // 
@@ -102,7 +104,7 @@
             // 
             this.polaganjaToolStripMenuItem.BackColor = System.Drawing.Color.LightSteelBlue;
             this.polaganjaToolStripMenuItem.Name = "polaganjaToolStripMenuItem";
-            this.polaganjaToolStripMenuItem.Size = new System.Drawing.Size(190, 34);
+            this.polaganjaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.polaganjaToolStripMenuItem.Text = "Polaganja";
             this.polaganjaToolStripMenuItem.Click += new System.EventHandler(this.polaganjaToolStripMenuItem_Click);
             // 
@@ -110,7 +112,7 @@
             // 
             this.izlazToolStripMenuItem.BackColor = System.Drawing.Color.LightSlateGray;
             this.izlazToolStripMenuItem.Name = "izlazToolStripMenuItem";
-            this.izlazToolStripMenuItem.Size = new System.Drawing.Size(190, 34);
+            this.izlazToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.izlazToolStripMenuItem.Text = "Izlaz";
             this.izlazToolStripMenuItem.Click += new System.EventHandler(this.izlazToolStripMenuItem_Click);
             // 
@@ -123,14 +125,14 @@
             this.kandidatiKojiNisuPolozili,
             this.rangListaInstruktora});
             this.izvestajiToolStripMenuItem.Name = "izvestajiToolStripMenuItem";
-            this.izvestajiToolStripMenuItem.Size = new System.Drawing.Size(90, 29);
+            this.izvestajiToolStripMenuItem.Size = new System.Drawing.Size(76, 26);
             this.izvestajiToolStripMenuItem.Text = "Izveštaji";
             // 
             // stanjeKandidata
             // 
             this.stanjeKandidata.BackColor = System.Drawing.Color.LightSteelBlue;
             this.stanjeKandidata.Name = "stanjeKandidata";
-            this.stanjeKandidata.Size = new System.Drawing.Size(340, 34);
+            this.stanjeKandidata.Size = new System.Drawing.Size(280, 26);
             this.stanjeKandidata.Text = "Stanje kandidata";
             this.stanjeKandidata.Click += new System.EventHandler(this.stanjeKandidata_Click);
             // 
@@ -138,7 +140,7 @@
             // 
             this.polozeniIspitiPoMesecu.BackColor = System.Drawing.Color.LightSlateGray;
             this.polozeniIspitiPoMesecu.Name = "polozeniIspitiPoMesecu";
-            this.polozeniIspitiPoMesecu.Size = new System.Drawing.Size(340, 34);
+            this.polozeniIspitiPoMesecu.Size = new System.Drawing.Size(280, 26);
             this.polozeniIspitiPoMesecu.Text = "Položeni ispiti po mesecu";
             this.polozeniIspitiPoMesecu.Click += new System.EventHandler(this.polozeniIspitiPoMesecu_Click);
             // 
@@ -146,7 +148,7 @@
             // 
             this.polozeniIspitiPoInstruktoru.BackColor = System.Drawing.Color.LightSteelBlue;
             this.polozeniIspitiPoInstruktoru.Name = "polozeniIspitiPoInstruktoru";
-            this.polozeniIspitiPoInstruktoru.Size = new System.Drawing.Size(340, 34);
+            this.polozeniIspitiPoInstruktoru.Size = new System.Drawing.Size(280, 26);
             this.polozeniIspitiPoInstruktoru.Text = "Položeni ispiti po instruktoru";
             this.polozeniIspitiPoInstruktoru.Click += new System.EventHandler(this.polozeniIspitiPoInstruktoru_Click);
             // 
@@ -154,7 +156,7 @@
             // 
             this.kandidatiKojiNisuPolozili.BackColor = System.Drawing.Color.LightSlateGray;
             this.kandidatiKojiNisuPolozili.Name = "kandidatiKojiNisuPolozili";
-            this.kandidatiKojiNisuPolozili.Size = new System.Drawing.Size(340, 34);
+            this.kandidatiKojiNisuPolozili.Size = new System.Drawing.Size(280, 26);
             this.kandidatiKojiNisuPolozili.Text = "Kandidati koji nisu položili";
             this.kandidatiKojiNisuPolozili.Click += new System.EventHandler(this.kandidatiKojiNisuPolozili_Click);
             // 
@@ -162,7 +164,7 @@
             // 
             this.rangListaInstruktora.BackColor = System.Drawing.Color.LightSteelBlue;
             this.rangListaInstruktora.Name = "rangListaInstruktora";
-            this.rangListaInstruktora.Size = new System.Drawing.Size(340, 34);
+            this.rangListaInstruktora.Size = new System.Drawing.Size(280, 26);
             this.rangListaInstruktora.Text = "Rang lista instruktora";
             this.rangListaInstruktora.Click += new System.EventHandler(this.rangListaInstruktora_Click);
             // 
@@ -172,10 +174,10 @@
             this.name2lbl.BackColor = System.Drawing.Color.Transparent;
             this.name2lbl.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 48F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name2lbl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.name2lbl.Location = new System.Drawing.Point(212, 76);
+            this.name2lbl.Location = new System.Drawing.Point(188, 61);
             this.name2lbl.Margin = new System.Windows.Forms.Padding(0);
             this.name2lbl.Name = "name2lbl";
-            this.name2lbl.Size = new System.Drawing.Size(178, 114);
+            this.name2lbl.Size = new System.Drawing.Size(148, 94);
             this.name2lbl.TabIndex = 2;
             this.name2lbl.Text = "JUS";
             // 
@@ -185,9 +187,9 @@
             this.name1lbl.BackColor = System.Drawing.Color.Transparent;
             this.name1lbl.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 26F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name1lbl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.name1lbl.Location = new System.Drawing.Point(12, 76);
+            this.name1lbl.Location = new System.Drawing.Point(11, 61);
             this.name1lbl.Name = "name1lbl";
-            this.name1lbl.Size = new System.Drawing.Size(236, 61);
+            this.name1lbl.Size = new System.Drawing.Size(200, 51);
             this.name1lbl.TabIndex = 3;
             this.name1lbl.Text = "Auto škola";
             // 
@@ -197,19 +199,27 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tw Cen MT", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(117, 134);
+            this.label1.Location = new System.Drawing.Point(104, 107);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 37);
+            this.label1.Size = new System.Drawing.Size(95, 31);
             this.label1.TabIndex = 4;
             this.label1.Text = "Valjevo";
             // 
+            // Duzi
+            // 
+            this.Duzi.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.Duzi.Name = "Duzi";
+            this.Duzi.Size = new System.Drawing.Size(224, 26);
+            this.Duzi.Text = "Duži";
+            this.Duzi.Click += new System.EventHandler(this.Duzi_Click);
+            // 
             // AutoSkola
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::AutoSkolaJUS.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(854, 532);
+            this.ClientSize = new System.Drawing.Size(759, 426);
             this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.name1lbl);
@@ -217,6 +227,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AutoSkola";
             this.Text = "JUS Auto škola";
             this.menuStrip1.ResumeLayout(false);
@@ -244,6 +255,7 @@
         private System.Windows.Forms.Label name2lbl;
         private System.Windows.Forms.Label name1lbl;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem Duzi;
     }
 }
 

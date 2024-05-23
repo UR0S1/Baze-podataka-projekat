@@ -52,6 +52,18 @@
     <Compile Include="AutoSkola.Designer.cs">
       <DependentUpon>AutoSkola.cs</DependentUpon>
     </Compile>
+    <Compile Include="Duzi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Duzi.Designer.cs">
+      <DependentUpon>Duzi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPromeni\PromeniDuzi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPromeni\PromeniDuzi.Designer.cs">
+      <DependentUpon>PromeniDuzi.cs</DependentUpon>
+    </Compile>
     <Compile Include="KandidatCLass.cs" />
     <Compile Include="Kandidati.cs">
       <SubType>Form</SubType>
@@ -139,6 +151,12 @@
     <Compile Include="VoziloClass.cs" />
     <EmbeddedResource Include="AutoSkola.resx">
       <DependentUpon>AutoSkola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Duzi.resx">
+      <DependentUpon>Duzi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPromeni\PromeniDuzi.resx">
+      <DependentUpon>PromeniDuzi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPromeni\PromeniRadnici.resx">
       <DependentUpon>PromeniRadnici.cs</DependentUpon>

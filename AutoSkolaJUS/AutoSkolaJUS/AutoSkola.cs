@@ -84,5 +84,12 @@ namespace AutoSkolaJUS
             form.ShowDialog();
             form.Dispose();
         }
+
+        private void Duzi_Click(object sender, EventArgs e)
+        {
+            Duzi form = new Duzi();
+            form.ShowDialog();
+            form.Dispose();
+        }
     }
 }
